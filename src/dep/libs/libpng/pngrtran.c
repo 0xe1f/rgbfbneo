@@ -18,7 +18,7 @@
 
 #include "pngpriv.h"
 
-#ifdef PNG_ARM_NEON_IMPLEMENTATION
+#ifdef false //PNG_ARM_NEON_IMPLEMENTATION
 #  if PNG_ARM_NEON_IMPLEMENTATION == 1
 #    define PNG_ARM_NEON_INTRINSICS_AVAILABLE
 #    if defined(_MSC_VER) && defined(_M_ARM64)
